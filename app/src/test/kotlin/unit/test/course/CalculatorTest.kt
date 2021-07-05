@@ -21,10 +21,4 @@ internal class CalculatorTest {
         assertEquals(resultNum, result, "Hasil seharusnya $resultNum")
     }
 
-    @Test
-    fun testAddSuccessNotEqual() {
-        val result = calculator.add(firstNum, secondNum)
-        assertNotNull(result)
-        assertNotEquals(5, result)
-    }
 }
